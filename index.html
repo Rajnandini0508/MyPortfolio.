@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio website of Rajnandini Kumari - MCA student passionate about web development, programming, and software engineering.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <i class='bx bx-menu' id="menu-icon"></i> 
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
+        </nav>
+    </header>
+   
+    <!-- HOME -->
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Rajnandini Kumari</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I am an MCA student passionate about web development and programming. I love creating simple, user-friendly, and impactful solutions.</p>
+            <div class="social-media">
+                <a href="https://instagram.com/nandini_gupta0508" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="https://github.com/Rajnandini0508" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://linkedin.com/in/rajnandini-gupta-10069a385" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+        <div class="home-img">
+            <img src="image.png">
+        </div>
+     </section>
+    
+
+    <!-- ABOUT -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="profileimage.png">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>💻 I'm a Computer Science student pursuing my Master of Computer Applications at Birla Institute of Applied Sciences, Bhimtal. My academic journey has helped me build a solid base in programming, web development, and problem-solving, while also strengthening my knowledge of OOPs, Java, and Data Structures.<br><br>✨ I enjoy working with technologies like HTML, CSS, and JavaScript to design clean, functional, and user-friendly solutions. Learning new skills and experimenting with innovative ideas keeps me motivated to grow as a developer.<br><br>🌱 My goal is to collaborate with passionate individuals and organizations, gain hands-on experience, and make a meaningful contribution in the areas of web development and software engineering.</p>
+            <a href="RajnandniKumariCV.pdf" class="btn">Download CV</a>
+        </div>
+     </section>
+
+    
+    <!-- EDUCATION -->
+     <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="education-row">
+            <div class="education-column">
+                <!-- <h3 class="title">Education</h3> -->
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2024 - 2026</div>
+                            <h3>Master of Computer Application</h3>
+                            <p>Birla Institute of Applied Sciences</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2020 - 2023</div>
+                            <h3>Bachelor of Science</h3>
+                            <p>Sumitra Mahila College</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2018 - 2020</div>
+                            <h3>PCM</h3>
+                            <p>BSEB</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+    <!-- SKILLS -->
+     <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+
+                        <div class="progress">
+                            <h3>HTML <span>Intermediate</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>Intermediate</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>Beginner</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Java <span>Beginner</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+    <!-- CONTACT -->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                    <input type="text" name="fullname" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <span class="focus"></span>
+            </div>
+
+             <div class="input-box">
+                    <input type="tel" name="mobile" placeholder="Mobile Number" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <span class="focus"></span>
+            </div>
+
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+     </section>
+
+    <!-- FOOTER -->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 Rajnandini Kumari | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
